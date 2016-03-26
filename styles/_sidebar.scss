@@ -1,0 +1,31 @@
+.sidebar {
+  width: 20rem;
+}
+
+.profile-pic {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+
+  &:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+  }
+}
+
+.profile-pic--image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.creator-list {
+  &__heading {
+    border-bottom: $brand-border;
+    font-family: $brand-font-special;
+  }
+}

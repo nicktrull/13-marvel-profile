@@ -5,13 +5,55 @@
   <meta charset="utf-8">
   <title>13 Marvel Profile</title>
   <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro">
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
+  <div class="modal">
+    <div class="modal-container">
+      <div class="modal__close">
+        <p class="modal__close--button">x</p>
+      </div>
+      <div class="modal__content">
+        <p class="modal__content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="container">
+      <h3 class="header-title">Marvel</h3>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="page">
+      <div class="sidebar">
+        <div class="profile-pic"></div>
+        <h3 class="profile-title"></h3>
+        <h4 class="profile-years"></h4>
+        <ul class="creator-list">
+          <h3 class="creator-list__heading">Creator</h3>
+        </ul>
+      </div>
+
+      <div class="main">
+
+      </div>
+    </div>
+  </div>
 
   <script src="/vendor.js" charset="utf-8"></script>
   <script src="/app.js" charset="utf-8"></script>
 
-  <script type="text/javascript">
+  <script>
+    var index = require(`index`);
+
+    index();
   </script>
+
 </body>
 </html>
