@@ -1,5 +1,6 @@
 .sidebar {
   width: 20rem;
+  padding: $gutter;
 }
 
 .profile-pic {
@@ -23,8 +24,13 @@
   width: 100%;
 }
 
+.profile-title {
+  margin: $gutter 0;
+}
+
 .creator-list {
   &__heading {
+    margin: $gutter 0;
     border-bottom: $brand-border;
     font-family: $brand-font-special;
   }

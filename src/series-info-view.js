@@ -26,7 +26,6 @@ export default class SeriesInfoView {
   }
 
   renderCreators() {
-    debugger;
     this.data.creators.items.forEach((creator) => {
       const newListItem = document.createElement(`li`);
       newListItem.innerText = creator.name;
