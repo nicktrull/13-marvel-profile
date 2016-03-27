@@ -1,0 +1,41 @@
+.comics {
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.comics-title {
+  margin: 0 $gutter;
+  border-bottom: $brand-border;
+  font-family: $brand-font-special;
+}
+
+.comic-item {
+  width: calc(100% / 4);
+  margin: $gutter;
+}
+
+
+.comic-image--container {
+  position: relative;
+  width: 100%;
+  border-radius: $brand-border-radius;
+  overflow: hidden;
+
+  &:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+  }
+}
+
+.comic-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

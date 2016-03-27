@@ -6,7 +6,8 @@
 .profile-pic {
   position: relative;
   width: 100%;
-  overflow: auto;
+  border-radius: $brand-border-radius;
+  overflow: hidden;
 
   &:before {
     display: block;
@@ -26,9 +27,11 @@
 
 .profile-title {
   margin: $gutter 0;
+  font-weight: normal;
 }
 
 .creator-list {
+
   &__heading {
     margin: $gutter 0;
     border-bottom: $brand-border;
