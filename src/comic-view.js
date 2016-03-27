@@ -9,7 +9,6 @@ export default class ComicView {
   }
 
   renderComicView() {
-    debugger;
     this.element.classList.add(`comic-item`);
     this.element.innerHTML = `
       <div class="comic-image--container">

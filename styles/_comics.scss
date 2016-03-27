@@ -13,7 +13,9 @@
 }
 
 .comic-item {
-  width: calc(100% / 4);
+  flex-grow: 1;
+  width: calc(100% / 4 - 2rem);
+  min-width: 7rem;
   margin: $gutter;
 }
 
@@ -38,4 +40,23 @@
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.comic-issue {
+  margin: $gutter 0;
+}
+
+.comic-title {
+  height: 2.3rem;
+  margin: $gutter 0;
+  overflow: hidden;
+}
+
+.comic-description__button {
+  width: 100%;
+  padding: $gutter / 2 0;
+  border: 0;
+  border-radius: $brand-border-radius;
+  background: $brand-navy;
+  color: $brand-white;
 }

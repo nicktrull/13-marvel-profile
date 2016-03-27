@@ -2,11 +2,14 @@
 
   &-list {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
 .character-item {
-  width: calc(100% / 4);
+  flex-grow: 1;
+  width: calc(100% / 4 - 2rem);
+  min-width: 7rem;
   margin: $gutter;
 }
 
