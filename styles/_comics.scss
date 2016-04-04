@@ -13,9 +13,7 @@
 }
 
 .comic-item {
-  flex-grow: 1;
-  width: calc(100% / 4 - 2rem);
-  min-width: 7rem;
+  flex: 1 1 6rem;
   margin: $gutter;
 }
 
@@ -59,4 +57,5 @@
   border-radius: $brand-border-radius;
   background: $brand-navy;
   color: $brand-white;
+  cursor: pointer;
 }

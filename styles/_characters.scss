@@ -1,3 +1,8 @@
+.main {
+  flex: 4 1 30rem;
+  padding: $gutter;
+}
+
 .characters {
 
   &-list {
@@ -7,9 +12,7 @@
 }
 
 .character-item {
-  flex-grow: 1;
-  width: calc(100% / 4 - 2rem);
-  min-width: 7rem;
+  flex: 1 1 6rem;
   margin: $gutter;
 }
 

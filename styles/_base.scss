@@ -23,11 +23,8 @@ h1, h2, h3, h4 {
 
 .page {
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-top: $gutter;
 }
 // jesse @ eventbrite .com
-.main {
-  width: 40rem;
-  padding: $gutter;
-}
