@@ -1,16 +1,54 @@
 <!DOCTYPE html>
+
 <html>
 <head>
   <meta charset="utf-8">
   <title>13 Marvel Profile</title>
   <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro">
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
+  <div class="header">
+    <div class="container">
+      <h1 class="header-title">Marvel</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="page">
+      <div class="sidebar">
+        <div class="profile-pic"></div>
+        <h2 class="profile-title"></h2>
+        <h4 class="profile-years"></h4>
+        <ul class="creator-list">
+          <h2 class="creator-list__heading">Creator</h2>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="characters">
+          <h1 class="characters-title">Characters</h1>
+          <ul class="characters-list"></ul>
+        </div>
+
+        <div class="comics">
+          <h1 class="comics-title">Comics</h1>
+          <ul class="comics-list"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="/vendor.js" charset="utf-8"></script>
   <script src="/app.js" charset="utf-8"></script>
 
-  <script type="text/javascript">
+  <script>
+    var index = require(`index`);
+
+    index();
   </script>
+
 </body>
 </html>

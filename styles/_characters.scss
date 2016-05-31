@@ -1,0 +1,49 @@
+.main {
+  flex: 4 1 30rem;
+  padding: $gutter;
+}
+
+.characters {
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.character-item {
+  flex: 1 1 6rem;
+  margin: $gutter;
+}
+
+.characters-title {
+  margin: 0 $gutter;
+  border-bottom: $brand-border;
+  font-family: $brand-font-special;
+}
+
+.character-image--container {
+  position: relative;
+  width: 100%;
+  border-radius: $brand-border-radius;
+  overflow: hidden;
+
+  &:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+  }
+}
+
+.character-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.character-title {
+  margin: $gutter 0;
+}

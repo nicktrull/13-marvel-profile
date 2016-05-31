@@ -1,0 +1,46 @@
+.modal {
+  display: none;
+}
+
+.modal--active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: $brand-modal-bg;
+  z-index: 1;
+}
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  padding: $gutter;
+  transform: translate(-50%, -50%);
+  background: $brand-white;
+  color: $brand-dark-gray;
+  font-family: $brand-font-reg;
+  font-weight: bold;
+}
+
+.modal__close {
+  background: $brand-navy;
+  color: $brand-white;
+  text-align: center;
+  cursor: pointer;
+
+  &--button {
+    margin: 0;
+    font-size: 1.4rem;
+  }
+}
+
+.modal__content {
+  line-height: 1.2rem;
+
+  &--title {
+    font-family: $brand-font-special;
+  }
+}

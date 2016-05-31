@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  padding: $gutter 0;
+  background: $brand-navy;
+  color: $brand-white;
+  font-family: $brand-font-special;
+
+  &-title {
+    margin-left: $gutter;
+    font-size: 2rem;
+  }
+}

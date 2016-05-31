@@ -1,0 +1,61 @@
+.comics {
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.comics-title {
+  margin: 0 $gutter;
+  border-bottom: $brand-border;
+  font-family: $brand-font-special;
+}
+
+.comic-item {
+  flex: 1 1 6rem;
+  margin: $gutter;
+}
+
+
+.comic-image--container {
+  position: relative;
+  width: 100%;
+  border-radius: $brand-border-radius;
+  overflow: hidden;
+
+  &:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+  }
+}
+
+.comic-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.comic-issue {
+  margin: $gutter 0;
+}
+
+.comic-title {
+  height: 2.3rem;
+  margin: $gutter 0;
+  overflow: hidden;
+}
+
+.comic-description__button {
+  width: 100%;
+  padding: $gutter / 2 0;
+  border: 0;
+  border-radius: $brand-border-radius;
+  background: $brand-navy;
+  color: $brand-white;
+  cursor: pointer;
+}
